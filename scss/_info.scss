@@ -1,0 +1,32 @@
+.info{
+    padding: 5%;
+
+    &__logo{
+        width: 10%;
+        height: 50px;
+    }
+
+    &__articles{
+        display: flex;
+        //justify-content: space-around;
+        flex-wrap: wrap;
+        //padding: 2%;
+        margin: 5% 0 5% 0;
+
+        &--tittle1{
+            margin-top: 25px;
+        }
+        &--tittle2{
+            margin-top: 25px;
+        }
+        &--tittle3{
+            margin-top: 25px;
+        }
+        &--tittle4{
+            margin-top: 25px;
+        }
+        &--tittle5{
+            margin-top: 25px;
+        }
+    }
+}

@@ -5,4 +5,34 @@
         border-bottom-right-radius: 100px;
         border-top-right-radius: 100px;
     }
+
+    &__texto{
+        color: rgb(94, 99, 99);
+        font-style: italic;
+        position: left;
+        margin-top: 3%;
+    }
+
+    &__nombre{
+        color: black;
+        position: left;  
+        font-weight: bold;
+        margin-top: 2%;      
+    }
+
+    &__button1{
+        text-align: left;
+        color: #0088E4;
+        margin: 30px 15px 15px 15px; 
+    }
+
+    &__pie{
+        color: rgb(94, 99, 99);
+        font-style: italic;
+        position: left;
+        margin-top: 5%;
+        font-size: small;
+    }
+
+
 }

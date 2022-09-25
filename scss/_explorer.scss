@@ -1,0 +1,48 @@
+.explorer{
+    background-color:blanchedalmond;
+    display: flex;
+    //align-items: center;
+    padding: 5%;
+    flex-direction: column;
+    
+
+    &__tittle{
+        text-align: center;
+        color: black;
+        margin: 30px 15px 15px 15px;
+    }
+
+    &__container{
+        
+        padding: 1%;
+        width: 35%;
+        height: 350px;
+        background-color: white;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        //margin: 5% % 0 0;
+        margin-right: 20px;
+        margin-left: 30%;
+
+        &--logo{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        &--funciones{
+            display: flex;
+            justify-content: left;
+            width: 100%;
+            margin-top: 2%;
+        }
+        &--vistazo{
+            display: flex;
+            justify-content: left;
+            width: 100%;
+            margin-top: 2%;
+        }
+        
+        
+    }
+}
