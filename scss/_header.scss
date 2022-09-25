@@ -1,0 +1,17 @@
+.header{
+
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #a569bd;
+        width: 100%;
+        height: 100px;
+
+
+        &--burger{
+            height: 50px;    
+            width: 50px;  
+        }
+    }
+}

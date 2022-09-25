@@ -1,0 +1,36 @@
+.sectionreune{
+    background-color: #c0b99d;
+    
+    
+    &__boxing{
+        background-color: aqua;
+        border-bottom-right-radius: 100px;
+        border-top-right-radius: 100px;
+        margin-right: 20%;
+        padding: 10px;
+
+        &--image-reune{
+            width: 60%;
+            height: 20%;
+            margin: 2% 0 0 2%;
+        }
+
+    }
+
+    &__texto-reune{
+        text-align: left;
+        color: black;
+        margin: 30px 15px 15px 15px;
+    }
+    &__texto-canales{
+        text-align: left;
+        color: black;
+        margin: 30px 15px 15px 15px; 
+    }
+    &__link-info{
+        text-align: left;
+        color: #0088E4;
+        margin: 30px 15px 15px 15px; 
+    }
+
+}

@@ -1,0 +1,36 @@
+.sectiontipo{
+    background-color: #c0b99d;
+    
+    
+    &__boxing{
+        background-color: aqua;
+        border-bottom-left-radius: 100px;
+        border-top-left-radius: 100px;
+        margin-left: 20%;
+        padding: 10px;
+        
+        &--image-tipo-trabajo{
+            width: 60%;
+            height: 20%;
+            margin: 1% 0 0 40%;
+        }
+
+    }
+
+    &__texto-tipo{
+        text-align: left;
+        color: black;
+        margin: 30px 15px 15px 15px;
+    }
+    &__texto-flexibilidad{
+        text-align: left;
+        color: black;
+        margin: 30px 15px 15px 15px; 
+    }
+    &__link-info2{
+        text-align: left;
+        color: #0088E4;
+        margin: 30px 15px 15px 15px; 
+    }
+
+}

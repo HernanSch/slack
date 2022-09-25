@@ -1,0 +1,24 @@
+.sectionconfianza{
+    background-color: white;
+
+    &__tittle{
+        text-align: center;
+        color: black;
+        margin-top: 5%;
+    }
+
+    &__texto{
+        text-align: center;
+        color: black;
+    }
+
+    &__buttons{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;        
+    }
+
+    &__image-confianza{
+        width: 100%;
+    }
+}
